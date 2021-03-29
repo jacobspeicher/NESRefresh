@@ -1,0 +1,36 @@
+Modules list:
+-------------
+week_5.o:
+    CODE              Offs=000000  Size=0001AD  Align=00001  Fill=0000
+    HEADER            Offs=000000  Size=000007  Align=00001  Fill=0000
+    PALETTE           Offs=000000  Size=000020  Align=00001  Fill=0000
+    SPRITES           Offs=000000  Size=000020  Align=00001  Fill=0000
+    TILES             Offs=000000  Size=002000  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+HEADER                000000  000006  000007  00001
+TILES                 000000  001FFF  002000  00001
+CODE                  00C000  00C1AC  0001AD  00001
+PALETTE               00E000  00E01F  000020  00001
+SPRITES               00E020  00E03F  000020  00001
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+
+
+
+Exports list by value:
+----------------------
+
+
+
+Imports list:
+-------------
+
